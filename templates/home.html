@@ -1,14 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h2>{{ page_title }}</h2>
-    <p>
-        Mediterranean gastronomy extends from Gibraltar to the Bosphorus, down the Rhone Valley, through the great seaports of Marseilles, Barcelona, and
+<div class="row">
+    <div class="col-md-9">
+        <h2 class="title">Mediterranean Food</h2>
+        <p class="description">Join us in a gastronomic journey discovering the best recipes of the Mediterranean countries. Mediterranean Flavours will be a place for sharing recipes and tips to make us all enjoy such a rich gastronomy and improve our culinary skills. 
+            Mediterranean gastronomy extends from Gibraltar to the Bosphorus, down the Rhone Valley, through the great seaports of Marseilles, Barcelona, and
         Genoa, across to Tunis and Alexandria, embracing all the Mediterranean islands, Corsica, Sicily, Sardinia,
         Crete, the Cyclades, Cyprus (where the Byzantine influence begins to be felt), to the mainland of Greece and the
-        much disputed territories of Syria, the Lebanon, Constantinople, and Smyrna.
-    </p>
+        much disputed territories of Syria, the Lebanon, Constantinople, and Smyrna.</p>
+  </div>
+</div>
 
+    <h2>{{ page_title }}</h2>
     {% for member in company %}
 
     <div class="row featurette">
