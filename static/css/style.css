@@ -1,0 +1,56 @@
+/*-------------------------------------------Header*/
+
+.nav-wrapper {
+    background: url(https://picjumbo.com/wp-content/uploads/fresh-amp-colorful-fruits-and-vegetables-2210x1473.jpg);
+    background-size: cover;
+    height: 400px !important;
+}
+
+/*-------------------------------------------Hero*/
+
+#hero-background {
+  background: url(../images/accounting-career-1.png);
+  background-size: cover;
+  display: flex;
+}
+
+#hero-bot {
+    background-color: #020202;
+    width: 50%;
+    height: fit-content;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border: 5px solid #F67571;
+    border-radius: 10%;
+}
+
+/*-------------------------------------------Footer*/
+
+#footer-bar {
+    background-color: #F67571;
+    min-height: 110px;
+    font-family: "Roboto", sans-serif;
+}
+
+#about, #social {
+  padding: 25px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+#social ul {
+  text-align: center;
+}
+
+.social-links li a i {
+  padding-top: 35px;
+  font-size:  25px;
+  color: #020202;
+  transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  color: #fff;
+}
