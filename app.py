@@ -145,6 +145,11 @@ def delete_recipe(recipe_id):
     flash("Recipe successfully deleted")
     return redirect(url_for("get_recipes"))
 
+@app.route("/see_recipes")
+def see_recipes():
+    recipes = mongo.db.recipes.find()
+    return render_template("see_recipes.html", recipes=recipes)
+
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
