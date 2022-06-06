@@ -1,108 +1,147 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 text-align="center">Mediterranean Flavours</h1>
 
-Welcome Mikatep,
+Mediterranean Flavours it's a blog style application created for the community to share ideas and recipes from Mediterranean countires
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Alt text](/static/images/mockup.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Author
 
-## Gitpod Reminders
+Miriam Cordoba Capote (Github handle: Mikatep)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+-   ### User stories
 
-A blue button should appear to click: _Make Public_,
+    -   #### First Time Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the web application.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to be able to find valuable information. And I also would want to locate their social media links to get a faster stream of information.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### Returning Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a Returning Visitor, I want to be able to check if the web applicaction is adding new features.
+        2. As a Returning Visitor, I want to be able to find new recipes and an increasing community.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to check if the web application keeps updating the site to keep up with the latest financial news.
+        2. As a Frequent User, I want to check to see if there organizations is increasing the information available in the website, and may moving forwards providing a more premium service.
+        3. I'd like to see the community growing, and the application evolving towards a better conexion between user.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+-   ### Design
+    -   #### Colour Scheme
+        -   The three main colours used are:
+         Dark #020202 used mainly for text within the body element and as changing color over hover effects for some of the links.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+         #fff and antiqute white, for hover effects and some text and brand-name.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+         Bright green #558b2f used for text and hr and card-headers.
 
-------
+         Bright red #d50000 used for social links hover, and buttons.
 
-## Release History
+    -   #### Typography
+        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+        - The Pacifico font is used for Nav-Bar components titles and some of the links. 
+        - Fonts were imported from Google Fonts.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    -   #### Imagery
+        -    The large, background image selected for the nav-bar represents tipycal mediterranean vegetables and products.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+   ## Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+   ### Existing Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __Navigation Bar__
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - Featured on all the pages, for the unregistered and unlogged user the full responsive navigation bar includes links to the Logo-name, Home page, Register, Log in and contact. The navigation bar is placed in each of the pages and is identical in each page to allow for easy navigation.
+  - For the registered and logged user the nav-bar also shows home, profile, log out, and contact pages.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+__Main Sections__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Main section holds an accordion in the main page that shows the recipes from the database. And holds the user main Profile in the profile page, and forms in Registration, Log In, and Contact Us page.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+__Footer__
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-  Featured on all the pages, the full responsive footer includes a brief description of the organization, social links and the name of the creator of the web application (myself). The footer is placed in each one of the pages and is identical in each page to allow for easy navigation.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+__Form Contact Us__
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-  Form to contact the organization fully functional. The organization gets one email with the user data, and the user get one email to confirmed the email has been sent.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Technologies
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Bootstrap 4.3
+- Javascript (contact form)
+- Flask + Python
+- HTML
+- CSS
+- FontAwesome
+- GoogleFonts
+- MongoDB*
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+*See below further information about the database used for this project.
 
-------
+### Important Information regarding the choice of non-relational-database
 
-## FAQ about the uptime script
+- In this case, I have modeled my relational database on a non-relational database system., MongoDB. I have used the Mongodb best practice and guidance used when migrating relational database platforms to non-relational database platforms as my guide in this case.  I have used the following mapping:
 
-**Why have you added this script?**
+![Alt text](/static/images/Relational.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- The second main reason for the election of a Non-relational Database vs a relational database is that I didn't have access to neither of the new guidance for Milestone project 3 due to technical problems with Code Institute, till few days prior the submission of this project, being the desing of the project on a very advance state at that precise moment.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Testing 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+-  The Website was tested on Google Chrome, Microsoft Edge and Firefox
+-  The website was viewed on a variety of devices such as Laptop, Samsung Tablet, and several android phones
+-  A big amount of testing has been done using google chrome inspect tool to ensure the responsive design was working properly.
+-  Friends and family were asked to check the website and give feedback throughout the different steps of the process.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Validator Testing 
 
-**So….?**
+-  Html
+No errors were returned in any of the pages when passing through the official W3C validator.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+A warning was returned reccomending to always add a header to every section however it has been ignored for designed purposes and to stay close to the original wireframe.
 
-**Can I opt out?**
+-  CSS
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+No errors were returned whe passing through the official Jigsaw validator.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- PEP8 Online
 
-**Anything more?**
+- JSHint for Javascript.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Unfixed Bugs
 
----
+There's an unfixed bug on the profile page of the user when the user wants on the "see my recipes" section.
 
-Happy coding!
+### Content 
+
+- All the text in the website is original, however some of the following websites has been used to check information for the recipes, and some extract of text has been used for the database:
+
+![Alt text](https://www.recipetineats.com/spanish-churros-recipe/)
+![Alt text](https://spanishsabores.com/antonias-salmorejo-recipe/)
+
+- Grids, buttons, navs and forms have been created using bootstrap 4.3 templates.
+- Icons in the footer are from www.fontawesome.com
+- Pverall information and guidance was extracted from Code Institute (Authentication, MondoGB etc...)
+- README.me file has been taken from a template from Code Institute.
+- Developed using VS code and Github.
+
+### Media
+
+- All the images used in the website are owned by the following websites
+
+![Alt text](https://www.recipetineats.com/spanish-churros-recipe/)
+![Alt text](https://www.wikipedia.org/)
+![Alt text](https://www.picjumbo.com/)
+
+## Deployment
+
+- The project has been deployed using Heroku app and can be seen life here.
+
+![Alt text](https://mediterranean.herokuapp.com/)
