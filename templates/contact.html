@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block styles %}
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script>
+    (function () {
+        emailjs.init("user_ljLH1JRXDhjCqhKR8JYlw");
+    })();
+</script>
+{% endblock %}
+{% block content %}
+
+<section>
+    <div class="row data-input"> 
+        <form class="general-form" onsubmit="return sendMail(this);">
+            <div class ="form-group">
+                <label class="label-1" for="name">Please input your Name</label>
+                <input id="name" class="form-control mr-sm-2" type="text" placeholder="User's name" aria-label="Name">
+            </div>
+            <div class="form-group">
+                <label class="label-1" for="email">Please input your Email</label>
+                <input id="email" class="form-control mr-sm-2" type="email" placeholder="User's email" aria-label="Email">
+            </div>
+            <div class="form-group">
+                <label class="label-1" for="message"> Please input any extra information here </label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button onclick="alert('Thank you for submitting your message!')" type="submit" class="btn btn-danger">Submit</button>
+        </form>
+    </div>
+</section>
+
+{% endblock %}
