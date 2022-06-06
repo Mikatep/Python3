@@ -90,6 +90,25 @@ margin-top: 15px;
   color: #558b2f;
 }
 
+.card-header {
+  background-color: #558b2f;
+}
+
+.card-header h2 button {
+  color: antiquewhite;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+
+}
+
+.card-header h2 button:hover {
+  text-decoration: none;
+  color: #d50000;
+}
+.accordion {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 /*-------------------------------------------Footer*/
 
 #footer-bar {
