@@ -144,4 +144,4 @@ There's an unfixed bug on the profile page of the user when the user wants on th
 
 - The project has been deployed using Heroku app and can be seen life here.
 
-![Alt text](https://mediterranean.herokuapp.com/)
+[website](https://mediterranean.herokuapp.com/)
