@@ -1,14 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------------------------------------------Header*/
 
-.nav-wrapper {
-    background: url(https://picjumbo.com/wp-content/uploads/fresh-amp-colorful-fruits-and-vegetables-2210x1473.jpg);
+#nav-bar {
+  background: url(https://picjumbo.com/wp-content/uploads/fresh-amp-colorful-fruits-and-vegetables-2210x1473.jpg);
     background-size: cover;
     height: 400px !important;
 }
 
-#nav-ul li {
-  font-size: 35px !important;
+#ul-nav {
+padding-top: 42px;
+}
+
+#logo h1 {
+  font-size: 35px;
+  margin-left: 15px;
+  padding-top: 36px;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+}
+
+#logo >a:hover{
+  text-decoration: none;
+}
+.nav-name {
+color: #d50000 ;
+font-weight: 600;
+font-family: 'Pacifico', cursive;
+font-size: 22px;
+padding-left: 15px;
+padding-right: 15px;
+letter-spacing: 2px;
+}
+
+.nav-name:hover {
+color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+color: #020202;
+border-color: #020202;
+margin-top: 15px;
+}
+
+/*-------------------------------------------Media queries*/
+
+@media(max-width: 767px) {
+  #ul-nav {
+    padding-top: 0!important;
+  }
+
+  .nav-name {
+    color: #fff;
+  }
+
+  nav {
+    margin-left: 17px;
+    margin-top: -30px;
+  } 
+  label {
+    font-size: 20px!important;
+  }
+  .categories-links {
+    font-size: 25px!important;
+  }
 }
 
 /*-------------------------------------------Hero*/
@@ -24,28 +79,11 @@
   font-weight: 450;
   color: #558b2f;
 }
-#hero-background {
-  background: url(../images/accounting-career-1.png);
-  background-size: cover;
-  display: flex;
-}
-
-#hero-bot {
-    background-color: #020202;
-    width: 50%;
-    height: fit-content;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    border: 5px solid #F67571;
-    border-radius: 10%;
-}
 
 /*-------------------------------------------Footer*/
 
 #footer-bar {
-    background-color: #F67571;
+    background-color: #558b2f;
     min-height: 110px;
     font-family: "Roboto", sans-serif;
 }
