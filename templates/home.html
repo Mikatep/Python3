@@ -19,8 +19,8 @@
             <div class="card-header">
                 <form  action="{{ url_for('search') }}" method="post" class="form-inline my-2 my-lg-0 mb-0">
                     <input type="text" name="query" id="query" minlength="3" class="validate" required>
-                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
-                        <a href="{{ url_for('get_recipes') }}" class="btn btn-danger">Reset</a>
+                    <button class="btn btn-danger btn-search my-2 my-sm-0" type="submit">Search</button>
+                        <a href="{{ url_for('get_recipes') }}" class="btn btn-danger btn-search">Reset</a>
                     </div>
                 </form>
             </div>

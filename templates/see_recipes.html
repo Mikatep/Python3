@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
+
+<h2 class="title">My Recipes</h2>
     {% for recipe in recipes %}
         {% if session.user|lower == recipe.created_by|lower %}
 
-        <h2 class="title">My Recipes</h2>
+        
         <div class="row">
             <div class="accordion row" id="accordionExample">
                 <div class="card col-md-12">
@@ -37,7 +39,6 @@
             </div>
         </div>
         {% else %}
-        <h2 class="title">My Recipes</h2>
         <p class="description">You have not shared any recipe yet.</p>
         {% endif %}
     {% endfor %}
