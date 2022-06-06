@@ -24,7 +24,7 @@ Miriam Cordoba Capote (Github handle: Mikatep)
         2. As a Returning Visitor, I want to be able to find new recipes and an increasing community.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check if the web application keeps updating the site to keep up with the latest financial news.
+        1. As a Frequent User, I want to check if the web application keeps updating the site to keep up with the latest culinary trends.
         2. As a Frequent User, I want to check to see if there organizations is increasing the information available in the website, and may moving forwards providing a more premium service.
         3. I'd like to see the community growing, and the application evolving towards a better conexion between user.
 
