@@ -38,8 +38,8 @@ color: #fff;
 }
 
 .navbar-dark .navbar-toggler {
-color: #020202;
-border-color: #020202;
+color: antiquewhite;
+border-color: antiquewhite;
 margin-top: 15px;
 }
 
@@ -80,6 +80,21 @@ margin-top: 15px;
   font-family: 'Pacifico', cursive;
   font-size: 50px;
   font-weight: 600;
+  margin-bottom: 20px ;
+}
+
+.subtitle {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #d50000;
+  font-weight: 600;
+  margin-bottom: 20px ;
+  text-decoration: none;
+}
+
+.subtitle:hover {
+  text-decoration: none;
+  color: #020202;
 }
 
 .description {
@@ -109,6 +124,26 @@ margin-top: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+/*-------------------------------------------Register*/
+#register {
+  margin: auto;
+}
+
+.btn-danger {
+  background-color: #d50000;
+}
+
+.btn-danger:hover {
+  background-color: #020202;
+}
+
+/*-------------------------------------------Flash*/
+
+.flash {
+  margin: auto;
+}
+
 /*-------------------------------------------Footer*/
 
 #footer-bar {
