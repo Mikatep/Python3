@@ -68,12 +68,18 @@ margin-top: 15px;
 
 /*-------------------------------------------Hero*/
 
+#intro {
+  margin-top: 10px;
+}
+
 .title {
+  font-family: 'Pacifico', cursive;
   font-size: 50px;
   font-weight: 600;
 }
 
 .description {
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   text-align: justify;
   font-weight: 450;
@@ -86,6 +92,10 @@ margin-top: 15px;
     background-color: #558b2f;
     min-height: 110px;
     font-family: "Roboto", sans-serif;
+}
+
+#footer-bar h3 {
+  font-family: 'Pacifico', cursive;
 }
 
 #about, #social {
