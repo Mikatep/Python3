@@ -24,6 +24,9 @@
                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     {{ loop.index }}. {{ recipe.recipe_name }} | Category: {{ recipe.category_name }}
                         </button>
+                        {% if session.user|lower == recipe.created_by|lower %}
+                        <a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}" class="btn btn-danger">Edit my Recipe</a>
+                        {% endif %}
                     </h2>
                 </div>
             </div>
