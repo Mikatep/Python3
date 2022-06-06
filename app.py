@@ -112,7 +112,7 @@ def add_recipe():
             "created_by": session["user"]
         }
         mongo.db.recipes.insert_one(recipe)
-        flash("Recipe Sucessfully Added, thank you for your sharing!")
+        flash("Recipe Sucessfully Added, thank you for sharing!")
         return redirect(url_for("get_recipes"))
 
     categories = mongo.db.categories.find().sort("category_name", 1)

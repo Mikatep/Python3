@@ -159,6 +159,18 @@ hr {
   margin: auto;
 }
 
+/*-------------------------------------------NewRecipe.html*/
+
+.data-input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.general-form {
+
+    margin: auto;
+}
+
 /*-------------------------------------------Footer*/
 
 #footer-bar {
