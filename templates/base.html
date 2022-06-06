@@ -20,7 +20,7 @@
     <!--Nav element and grid (Bootstrap 4.3 template)-->
     <div id="nav-bar" class="row">
         <div id="logo" class="col-md-4">
-           <a href=""><h1>Mediterranean Flavours</h1></a>
+           <a href="{{ url_for('get_recipes') }}"><h1>Mediterranean Flavours</h1></a>
         </div>
         <div class="col-md-8">
             <nav class="navbar navbar-expand-md navbar-dark">
@@ -37,13 +37,11 @@
                           <a class="nav-name" href="categories.html">Profile</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-name" href="categories.html">New Recipe</a>
-                        </li><li class="nav-item">
-                          <a class="nav-name" href="categories.html">Log Out</a>
+                          <a class="nav-name" href="{{ url_for('logout') }}">Log Out</a>
                         </li>
                         {% else %}
                         <li class="nav-item">
-                          <a class="nav-name" href="categories.html">Log In</a>
+                          <a class="nav-name" href="{{ url_for('login') }}">Log In</a>
                         </li><li class="nav-item">
                           <a class="nav-name" href="{{ url_for('register') }}">Register</a>
                         </li>

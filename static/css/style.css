@@ -138,6 +138,21 @@ margin-top: 15px;
   background-color: #020202;
 }
 
+
+/*-------------------------------------------Profile*/
+
+.profile-name {
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+hr {
+  border-color: #558b2f;
+}
+
+
 /*-------------------------------------------Flash*/
 
 .flash {
