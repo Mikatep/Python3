@@ -100,6 +100,11 @@ __Form Contact Us__
 -  A big amount of testing has been done using google chrome inspect tool to ensure the responsive design was working properly.
 -  Friends and family were asked to check the website and give feedback throughout the different steps of the process.
 
+- You can test all the functionalities by creating your own profile or singing up using:
+
+    - username: test2
+    - password: password123
+
 ### Validator Testing 
 
 -  Html
@@ -123,8 +128,8 @@ There's an unfixed bug on the profile page of the user when the user wants on th
 
 - All the text in the website is original, however some of the following websites has been used to check information for the recipes, and some extract of text has been used for the database:
 
-![Alt text](https://www.recipetineats.com/spanish-churros-recipe/)
-![Alt text](https://spanishsabores.com/antonias-salmorejo-recipe/)
+[Recipe Tineats](https://www.recipetineats.com/spanish-churros-recipe/)
+[Spanish Sabores](https://spanishsabores.com/antonias-salmorejo-recipe/)
 
 - Grids, buttons, navs and forms have been created using bootstrap 4.3 templates.
 - Icons in the footer are from www.fontawesome.com
@@ -136,9 +141,9 @@ There's an unfixed bug on the profile page of the user when the user wants on th
 
 - All the images used in the website are owned by the following websites
 
-![Alt text](https://www.recipetineats.com/spanish-churros-recipe/)
-![Alt text](https://www.wikipedia.org/)
-![Alt text](https://www.picjumbo.com/)
+[Recipe Tineats](https://www.recipetineats.com/spanish-churros-recipe/)
+[Wikipedia](https://www.wikipedia.org/)
+[Picjumbo](https://www.picjumbo.com/)
 
 ## Deployment
 
