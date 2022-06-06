@@ -11,41 +11,36 @@
         much disputed territories of Syria, the Lebanon, Constantinople, and Smyrna.</p>
   </div>
 </div>
-
-    <h2>{{ page_title }}</h2>
-    {% for member in company %}
+{% for recipe in recipes %}
 
     <div class="row featurette">
 
         {% if loop.index % 2 != 0 %}
 
             <div class="col-md-7">
-                <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
-                <p> {{ member.description }}</p>
+                <h3><a href="">{{ loop.index }}. {{ recipe.recipe_name }}</a></h3>
+                <h4>Category: {{ recipe.category_name }}</h4>
+                <p> Ingredients: {{ recipe.recipe_ingredients }}</p>
+                <p> Preparation: {{ recipe.recipe_steps}}</p>
             </div>
             <div class="col-md-5">
-                <img src="{{ member.image_source }}" alt="Member picture" class="featurette-image image-responsive">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Salmorejo_cordouan.JPG/1200px-Salmorejo_cordouan.JPG" alt="Recipee picture" class="featurette-image image-responsive">
             </div>
 
         {% else %}
 
         <div class="col-md-5">
-            <img src="{{ member.image_source }}" alt="Member picture" class="featurette-image image-responsive">
+            <img src="" alt="Member picture" class="featurette-image image-responsive">
         </div>
         <div class="col-md-7">
-            <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
-            <p> {{ member.description }}</p>
+            <h3><a href="">{{ loop.index }}. </a></h3>
+            <p> </p>
         </div>
 
         {% endif %}
 
     </div>
 
-    {% if loop.index != 13 %}
-
-        <hr class="featurette-divider">
-
-    {% endif %}
-
     {% endfor %}
+       
 {% endblock %}
